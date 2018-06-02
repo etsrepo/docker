@@ -51,4 +51,4 @@ RUN apt-get update && apt-get dist-upgrade -y && apt-get install -y \
   xvfb \
   --no-install-recommends
 
-RUN pip3 install ipython lxml
+RUN pip3 install ipython lxml opencv-contrib-python numpy scipy xmltodict
